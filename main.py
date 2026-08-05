@@ -1,3 +1,6 @@
+from utils.logger import log_activity
+
+
 def display_menu():
     print("=" * 40)
     print("        Welcome to CryptoLabX")
@@ -15,20 +18,30 @@ while True:
     choice = input("\nEnter your choice: ")
 
     if choice == "1":
-        print("\nEncrypt Module - Coming Soon\n")
+        log_activity("User selected Encrypt")
+        print("\nEncrypt Module - Coming Soon")
+        input("\nPress Enter to continue...")
 
     elif choice == "2":
-        print("\nDecrypt Module - Coming Soon\n")
+        log_activity("User selected Decrypt")
+        print("\nDecrypt Module - Coming Soon")
+        input("\nPress Enter to continue...")
 
     elif choice == "3":
-        print("\nAttack Module - Coming Soon\n")
+        log_activity("User selected Attack")
+        print("\nAttack Module - Coming Soon")
+        input("\nPress Enter to continue...")
 
     elif choice == "4":
-        print("\nAnalyze Module - Coming Soon\n")
+        log_activity("User selected Analyze")
+        print("\nAnalyze Module - Coming Soon")
+        input("\nPress Enter to continue...")
 
     elif choice == "5":
+        log_activity("Application Closed")
         print("\nThank you for using CryptoLabX!")
         break
 
     else:
-        print("\nInvalid Choice! Try Again.\n")
+        print("\nInvalid Choice! Please try again.")
+        input("\nPress Enter to continue...")
