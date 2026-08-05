@@ -1,4 +1,5 @@
-hello 
-this is cryptography lab task 
+Welcome to CryptoLabX.
 
-coming soon 
+This dataset is created for the Cryptography Laboratory Assignment.
+It is used to test file handling, character counting, word counting,
+line counting, unique character detection, and letter frequency analysis.

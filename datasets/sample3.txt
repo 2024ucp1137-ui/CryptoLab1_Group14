@@ -1,0 +1,5 @@
+Classical cryptography includes substitution and transposition techniques.
+
+The Caesar Cipher shifts each letter by a fixed number of positions.
+The Vigenere Cipher uses a repeating keyword to encrypt messages.
+The Playfair Cipher encrypts pairs of letters instead of single letters.
