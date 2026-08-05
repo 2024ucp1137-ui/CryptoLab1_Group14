@@ -1,4 +1,5 @@
 from utils.logger import log_activity
+from analysis.file_analyzer import analyze_file
 
 
 def display_menu():
@@ -34,7 +35,18 @@ while True:
 
     elif choice == "4":
         log_activity("User selected Analyze")
-        print("\nAnalyze Module - Coming Soon")
+
+        print("\nAvailable sample files:")
+        print("1. sample1.txt")
+        print("2. sample2.txt")
+        print("3. sample3.txt")
+        print("4. sample4.txt")
+        print("5. sample5.txt")
+
+        filename = input("\nEnter file name (example: sample1.txt): ")
+
+        analyze_file(filename)
+
         input("\nPress Enter to continue...")
 
     elif choice == "5":
