@@ -1,0 +1,11 @@
+CryptoLabX is a modular cryptography toolkit.
+
+This project includes modules for:
+- Encryption
+- Decryption
+- Cryptanalysis
+- Mathematical utilities
+- File analysis
+- Logging
+
+Future versions will support classical ciphers, modern encryption algorithms, and cryptographic attacks.

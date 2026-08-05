@@ -1,0 +1,7 @@
+Cryptography is the science of securing communication.
+
+Plaintext is the original readable message.
+Ciphertext is the encrypted form of the message.
+
+Encryption converts plaintext into ciphertext using a key.
+Decryption converts ciphertext back into plaintext using the correct key.

@@ -1,0 +1,6 @@
+Modern cryptography protects digital information.
+
+AES is a symmetric encryption algorithm.
+RSA is an asymmetric encryption algorithm.
+SHA-256 is a cryptographic hash function used for data integrity.
+Digital signatures provide authentication and non-repudiation.
