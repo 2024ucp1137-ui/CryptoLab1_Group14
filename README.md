@@ -13,7 +13,7 @@ CryptoLabX is a modular cryptography toolkit developed as part of the Cryptograp
 | Name | Roll Number |
 |------|-------------|
 | Ranveer Singh | 2024UCP1137 |
-| Gajesh Dhakar | 2024UCP1189 |
+| Gajesh Bishnoi | 2024UCP1189 |
 
 ---
 
