@@ -1,3 +1,4 @@
+from re import search
 import sqlite3
 import os
 
@@ -93,8 +94,8 @@ def search_books():
 
     con = connect()
 
-    # VULNERABILITY 1: SQL INJECTION
-    query = "SELECT * FROM books WHERE title LIKE '%" + search + "%' OR author LIKE '%" + search + "%'"
+    query = "SELECT * FROM books WHERE title LIKE ? OR author LIKE ?"
+    rows = con.execute(query, (f"%{search}%", f"%{search}%")).fetchall()
 
     try:
         rows = con.execute(query).fetchall()
@@ -181,7 +182,6 @@ def return_book(user_id):
 
 def calculate_fine():
     # VULNERABILITY 2: MISSING AUTHENTICATION
-    # This function can be accessed without logging in.
 
     days = input("Enter number of days book was kept: ")
 
@@ -201,7 +201,6 @@ def calculate_fine():
 
 def view_book_file():
     # VULNERABILITY 3: DIRECTORY TRAVERSAL
-    # User-controlled path is opened without validation.
 
     filename = input("Enter book file path: ")
 
