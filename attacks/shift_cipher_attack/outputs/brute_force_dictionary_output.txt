@@ -30,3 +30,81 @@ Key: 25 | LIPPS ASVPH XLMW MW E GMTLIV
 Predicted Key: 3
 Plaintext: HELLO WORLD THIS IS A CIPHER
 Dictionary Score: 6
+
+
+
+
+
+TEST CASE 2>>
+
+=== Brute Force Attack ===
+Key: 0 | Jyfwavnyhwof wyvaljaz pumvythapvu myvt buhbaovypglk hjjlzz Zljbyl jvttbupjhapvu pz ptwvyahua pu tvklyu jvtwbaly uladvyrz Aol zopma jpwoly pz zptwsl iba bzlmbs mvy slhyupun jyfwahuhsfzpz Mylxblujf huhsfzpz jhu ylclhs whaalyuz pu lujyfwalk tlzzhnlz Iybal mvyjl haahjrz ayf lclyf wvzzpisl rlf av yljvcly wshpualea Buklyzahukpun aolzl hhaahjrz olswz bz klzpnu zayvunly lujyfwapvu
+Key: 1 | Ixevzumxgvne vxuzkizy otluxsgzout lxus atgaznuxofkj giikyy Ykiaxk iussatoigzout oy osvuxzgtz ot sujkxt iusvazkx tkzcuxqy Znk ynolz iovnkx oy yosvrk haz ayklar lux rkgxtotm ixevzgtgreyoy Lxkwaktie gtgreyoy igt xkbkgr vgzzkxty ot ktixevzkj skyygmky Hxazk luxik gzzgiqy zxe kbkxe vuyyohrk qke zu xkiubkx vrgotzkdz Atjkxyzgtjotm znkyk ggzzgiqy nkrvy ay jkyomt yzxutmkx ktixevzout
+Key: 2 | Hwduytlwfumd uwtyjhyx nsktwrfynts kwtr zsfzymtwneji fhhjxx Xjhzwj htrrzsnhfynts nx nrutwyfsy ns rtijws htruzyjw sjybtwpx Ymj xmnky hnumjw nx xnruqj gzy zxjkzq ktw qjfwsnsl hwduyfsfqdxnx Kwjvzjshd fsfqdxnx hfs wjajfq ufyyjwsx ns jshwduyji rjxxfljx Gwzyj ktwhj fyyfhpx ywd jajwd utxxngqj pjd yt wjhtajw uqfnsyjcy Zsijwxyfsinsl ymjxj ffyyfhpx mjqux zx ijxnls xywtsljw jshwduynts
+Key: 3 | Gvctxskvetlc tvsxigxw mrjsvqexmsr jvsq yreyxlsvmdih eggiww Wigyvi gsqqyrmgexmsr mw mqtsvxerx mr qshivr gsqtyxiv rixasvow Xli wlmjx gmtliv mw wmqtpi fyx ywijyp jsv pievrmrk gvctxerepcwmw Jviuyirgc erepcwmw ger viziep texxivrw mr irgvctxih qiwwekiw Fvyxi jsvgi exxegow xvc izivc tswwmfpi oic xs vigsziv tpemrxibx Yrhivwxerhmrk xliwi eexxegow liptw yw hiwmkr wxvsrkiv irgvctxmsr
+Key: 4 | Fubswrjudskb surwhfwv lqirupdwlrq iurp xqdxwkrulchg dffhvv Vhfxuh frppxqlfdwlrq lv lpsruwdqw lq prghuq frpsxwhu qhwzrunv Wkh vkliw flskhu lv vlpsoh exw xvhixo iru ohduqlqj fubswdqdobvlv Iuhtxhqfb dqdobvlv fdq uhyhdo sdwwhuqv lq hqfubswhg phvvdjhv Euxwh irufh dwwdfnv wub hyhub srvvleoh nhb wr uhfryhu sodlqwhaw Xqghuvwdqglqj wkhvh ddwwdfnv khosv xv ghvljq vwurqjhu hqfubswlrq
+Key: 5 | Etarvqitcrja rtqvgevu kphqtocvkqp htqo wpcwvjqtkbgf ceeguu Ugewtg eqoowpkecvkqp ku korqtvcpv kp oqfgtp eqorwvgt pgvyqtmu Vjg ujkhv ekrjgt ku ukorng dwv wughwn hqt ngctpkpi etarvcpcnauku Htgswgpea cpcnauku ecp tgxgcn rcvvgtpu kp gpetarvgf oguucigu Dtwvg hqteg cvvcemu vta gxgta rquukdng mga vq tgeqxgt rnckpvgzv Wpfgtuvcpfkpi vjgug ccvvcemu jgnru wu fgukip uvtqpigt gpetarvkqp
+Key: 6 | Dszquphsbqiz qspufdut jogpsnbujpo gspn vobvuipsjafe bddftt Tfdvsf dpnnvojdbujpo jt jnqpsubou jo npefso dpnqvufs ofuxpslt Uif tijgu djqifs jt tjnqmf cvu vtfgvm gps mfbsojoh dszqubobmztjt Gsfrvfodz bobmztjt dbo sfwfbm qbuufsot jo fodszqufe nfttbhft Csvuf gpsdf buubdlt usz fwfsz qpttjcmf lfz up sfdpwfs qmbjoufyu Voefstuboejoh uiftf bbuubdlt ifmqt vt eftjho tuspohfs fodszqujpo
+Key: 7 | Cryptography protects information from unauthorized access Secure communication is important in modern computer networks The shift cipher is simple but useful for learning cryptanalysis Frequency analysis can reveal patterns in encrypted messages Brute force attacks try every possible key to recover plaintext Understanding these aattacks helps us design stronger encryption
+Key: 8 | Bqxosnfqzogx oqnsdbsr hmenqlzshnm eqnl tmztsgnqhydc zbbdrr Rdbtqd bnlltmhbzshnm hr hlonqszms hm lncdqm bnlotsdq mdsvnqjr Sgd rghes bhogdq hr rhlokd ats trdetk enq kdzqmhmf bqxoszmzkxrhr Eqdptdmbx zmzkxrhr bzm qdudzk ozssdqmr hm dmbqxosdc ldrrzfdr Aqtsd enqbd zsszbjr sqx dudqx onrrhakd jdx sn qdbnudq okzhmsdws Tmcdqrszmchmf sgdrd zzsszbjr gdkor tr cdrhfm rsqnmfdq dmbqxoshnm
+Key: 9 | Apwnrmepynfw npmrcarq gldmpkyrgml dpmk slysrfmpgxcb yaacqq Qcaspc amkkslgayrgml gq gknmprylr gl kmbcpl amknsrcp lcrumpiq Rfc qfgdr agnfcp gq qgknjc zsr sqcdsj dmp jcyplgle apwnrylyjwqgq Dpcosclaw ylyjwqgq ayl pctcyj nyrrcplq gl clapwnrcb kcqqyecq Zpsrc dmpac yrryaiq rpw ctcpw nmqqgzjc icw rm pcamtcp njyglrcvr Slbcpqrylbgle rfcqc yyrryaiq fcjnq sq bcqgel qrpmlecp clapwnrgml
+Key: 10 | Zovmqldoxmev molqbzqp fkclojxqflk colj rkxrqelofwba xzzbpp Pbzrob zljjrkfzxqflk fp fjmloqxkq fk jlabok zljmrqbo kbqtlohp Qeb pefcq zfmebo fp pfjmib yrq rpbcri clo ibxokfkd zovmqxkxivpfp Cobnrbkzv xkxivpfp zxk obsbxi mxqqbokp fk bkzovmqba jbppxdbp Yorqb clozb xqqxzhp qov bsbov mlppfyib hbv ql obzlsbo mixfkqbuq Rkabopqxkafkd qebpb xxqqxzhp ebimp rp abpfdk pqolkdbo bkzovmqflk
+Key: 11 | Ynulpkcnwldu lnkpaypo ejbkniwpekj bnki qjwqpdknevaz wyyaoo Oayqna ykiiqjeywpekj eo eilknpwjp ej ikzanj ykilqpan japskngo Pda odebp yeldan eo oeilha xqp qoabqh bkn hawnjejc ynulpwjwhuoeo Bnamqajyu wjwhuoeo ywj narawh lwppanjo ej ajynulpaz iaoowcao Xnqpa bknya wppwygo pnu aranu lkooexha gau pk naykran lhwejpatp Qjzanopwjzejc pdaoa wwppwygo dahlo qo zaoecj opnkjcan ajynulpekj
+Key: 12 | Xmtkojbmvkct kmjozxon diajmhvodji amjh pivpocjmduzy vxxznn Nzxpmz xjhhpidxvodji dn dhkjmovio di hjyzmi xjhkpozm izorjmfn Ocz ncdao xdkczm dn ndhkgz wpo pnzapg ajm gzvmidib xmtkovivgtndn Amzlpzixt vivgtndn xvi mzqzvg kvoozmin di zixmtkozy hznnvbzn Wmpoz ajmxz voovxfn omt zqzmt kjnndwgz fzt oj mzxjqzm kgvdiozso Piyzmnoviydib ocznz vvoovxfn czgkn pn yzndbi nomjibzm zixmtkodji
+Key: 13 | Wlsjnialujbs jlinywnm chzilguncih zlig ohuonbilctyx uwwymm Mywoly wiggohcwuncih cm cgjilnuhn ch gixylh wigjonyl hynqilem Nby mbczn wcjbyl cm mcgjfy von omyzof zil fyulhcha wlsjnuhufsmcm Zlykoyhws uhufsmcm wuh lypyuf junnylhm ch yhwlsjnyx gymmuaym Vlony zilwy unnuwem nls ypyls jimmcvfy eys ni lywipyl jfuchnyrn Ohxylmnuhxcha nbymy uunnuwem byfjm om xymcah mnlihayl yhwlsjncih
+Key: 14 | Vkrimhzktiar ikhmxvml bgyhkftmbhg ykhf ngtnmahkbsxw tvvxll Lxvnkx vhffngbvtmbhg bl bfihkmtgm bg fhwxkg vhfinmxk gxmphkdl Max labym vbiaxk bl lbfiex unm nlxyne yhk extkgbgz vkrimtgterlbl Ykxjnxgvr tgterlbl vtg kxoxte itmmxkgl bg xgvkrimxw fxlltzxl Uknmx yhkvx tmmtvdl mkr xoxkr ihllbuex dxr mh kxvhoxk ietbgmxqm Ngwxklmtgwbgz maxlx ttmmtvdl axeil nl wxlbzg lmkhgzxk xgvkrimbhg
+Key: 15 | Ujqhlgyjshzq hjglwulk afxgjeslagf xjge mfsmlzgjarwv suuwkk Kwumjw ugeemfauslagf ak aehgjlsfl af egvwjf ugehmlwj fwlogjck Lzw kzaxl uahzwj ak kaehdw tml mkwxmd xgj dwsjfafy ujqhlsfsdqkak Xjwimwfuq sfsdqkak usf jwnwsd hsllwjfk af wfujqhlwv ewkksywk Tjmlw xgjuw sllsuck ljq wnwjq hgkkatdw cwq lg jwugnwj hdsaflwpl Mfvwjklsfvafy lzwkw ssllsuck zwdhk mk vwkayf kljgfywj wfujqhlagf
+Key: 16 | Tipgkfxirgyp gifkvtkj zewfidrkzfe wifd lerlkyfizqvu rttvjj Jvtliv tfddleztrkzfe zj zdgfikrek ze dfuvie tfdglkvi evknfibj Kyv jyzwk tzgyvi zj jzdgcv slk ljvwlc wfi cvriezex tipgkrercpjzj Wivhlvetp rercpjzj tre ivmvrc grkkviej ze vetipgkvu dvjjrxvj Silkv wfitv rkkrtbj kip vmvip gfjjzscv bvp kf ivtfmvi gcrzekvok Leuvijkreuzex kyvjv rrkkrtbj yvcgj lj uvjzxe jkifexvi vetipgkzfe
+Key: 17 | Shofjewhqfxo fhejusji ydvehcqjyed vhec kdqkjxehyput qssuii Iuskhu secckdysqjyed yi ycfehjqdj yd cetuhd secfkjuh dujmehai Jxu ixyvj syfxuh yi iycfbu rkj kiuvkb veh buqhdydw shofjqdqboiyi Vhugkudso qdqboiyi sqd huluqb fqjjuhdi yd udshofjut cuiiqwui Rhkju vehsu qjjqsai jho uluho feiiyrbu auo je huseluh fbqydjunj Kdtuhijqdtydw jxuiu qqjjqsai xubfi ki tuiywd ijhedwuh udshofjyed
+Key: 18 | Rgneidvgpewn egditrih xcudgbpixdc ugdb jcpjiwdgxots prrthh Htrjgt rdbbjcxrpixdc xh xbedgipci xc bdstgc rdbejitg ctildgzh Iwt hwxui rxewtg xh hxbeat qji jhtuja udg atpgcxcv rgneipcpanhxh Ugtfjtcrn pcpanhxh rpc gtktpa epiitgch xc tcrgneits bthhpvth Qgjit udgrt piiprzh ign tktgn edhhxqat ztn id gtrdktg eapxcitmi Jcstghipcsxcv iwtht ppiiprzh wtaeh jh sthxvc higdcvtg tcrgneixdc
+Key: 19 | Qfmdhcufodvm dfchsqhg wbtcfaohwcb tfca iboihvcfwnsr oqqsgg Gsqifs qcaaibwqohwcb wg wadcfhobh wb acrsfb qcadihsf bshkcfyg Hvs gvwth qwdvsf wg gwadzs pih igstiz tcf zsofbwbu qfmdhobozmgwg Tfseisbqm obozmgwg qob fsjsoz dohhsfbg wb sbqfmdhsr asggousg Pfihs tcfqs ohhoqyg hfm sjsfm dcggwpzs ysm hc fsqcjsf dzowbhslh Ibrsfghobrwbu hvsgs oohhoqyg vszdg ig rsgwub ghfcbusf sbqfmdhwcb
+Key: 20 | Pelcgbtencul cebgrpgf vasbezngvba sebz hanhgubevmrq npprff Frpher pbzzhavpngvba vf vzcbegnag va zbqrea pbzchgre argjbexf Gur fuvsg pvcure vf fvzcyr ohg hfrshy sbe yrneavat pelcgnanylfvf Serdhrapl nanylfvf pna erirny cnggreaf va rapelcgrq zrffntrf Oehgr sbepr nggnpxf gel rirel cbffvoyr xrl gb erpbire cynvagrkg Haqrefgnaqvat gurfr nnggnpxf urycf hf qrfvta fgebatre rapelcgvba
+Key: 21 | Odkbfasdmbtk bdafqofe uzradymfuaz rday gzmgftadulqp mooqee Eqogdq oayygzuomfuaz ue uybadfmzf uz yapqdz oaybgfqd zqfiadwe Ftq eturf oubtqd ue euybxq ngf geqrgx rad xqmdzuzs odkbfmzmxkeue Rdqcgqzok mzmxkeue omz dqhqmx bmffqdze uz qzodkbfqp yqeemsqe Ndgfq radoq mffmowe fdk qhqdk baeeunxq wqk fa dqoahqd bxmuzfqjf Gzpqdefmzpuzs ftqeq mmffmowe tqxbe ge pqeusz efdazsqd qzodkbfuaz
+Key: 22 | Ncjaezrclasj aczepned tyqzcxletzy qczx fylfeszctkpo lnnpdd Dpnfcp nzxxfytnletzy td txazcelye ty xzopcy nzxafepc ypehzcvd Esp dstqe ntaspc td dtxawp mfe fdpqfw qzc wplcytyr ncjaelylwjdtd Qcpbfpynj lylwjdtd nly cpgplw aleepcyd ty pyncjaepo xpddlrpd Mcfep qzcnp leelnvd ecj pgpcj azddtmwp vpj ez cpnzgpc awltyepie Fyopcdelyotyr espdp lleelnvd spwad fd opdtry deczyrpc pyncjaetzy
+Key: 23 | Mbizdyqbkzri zbydomdc sxpybwkdsyx pbyw exkedrybsjon kmmocc Comebo mywwexsmkdsyx sc swzybdkxd sx wynobx mywzedob xodgybuc Dro crspd mszrob sc cswzvo led ecopev pyb vokbxsxq mbizdkxkvicsc Pboaeoxmi kxkvicsc mkx bofokv zkddobxc sx oxmbizdon wocckqoc Lbedo pybmo kddkmuc dbi ofobi zyccslvo uoi dy bomyfob zvksxdohd Exnobcdkxnsxq droco kkddkmuc rovzc ec nocsqx cdbyxqob oxmbizdsyx
+Key: 24 | Lahycxpajyqh yaxcnlcb rwoxavjcrxw oaxv dwjdcqxarinm jllnbb Bnldan lxvvdwrljcrxw rb rvyxacjwc rw vxmnaw lxvydcna wncfxatb Cqn bqroc lryqna rb brvyun kdc dbnodu oxa unjawrwp lahycjwjuhbrb Oanzdnwlh jwjuhbrb ljw anenju yjccnawb rw nwlahycnm vnbbjpnb Kadcn oxaln jccjltb cah nenah yxbbrkun tnh cx anlxena yujrwcngc Dwmnabcjwmrwp cqnbn jjccjltb qnuyb db mnbrpw bcaxwpna nwlahycrxw
+Key: 25 | Kzgxbwozixpg xzwbmkba qvnwzuibqwv nzwu cvicbpwzqhml ikkmaa Amkczm kwuucvqkibqwv qa quxwzbivb qv uwlmzv kwuxcbmz vmbewzsa Bpm apqnb kqxpmz qa aquxtm jcb camnct nwz tmizvqvo kzgxbivitgaqa Nzmycmvkg ivitgaqa kiv zmdmit xibbmzva qv mvkzgxbml umaaioma Jzcbm nwzkm ibbiksa bzg mdmzg xwaaqjtm smg bw zmkwdmz xtiqvbmfb Cvlmzabivlqvo bpmam iibbiksa pmtxa ca lmaqov abzwvomz mvkzgxbqwv
+
+
+=== Dictionary Attack ===
+Predicted Key: 7
+Plaintext: Cryptography protects information from unauthorized access Secure communication is important in modern computer networks The shift cipher is simple but useful for learning cryptanalysis Frequency analysis can reveal patterns in encrypted messages Brute force attacks try every possible key to recover plaintext Understanding these aattacks helps us design stronger encryption
+Dictionary Score: 14
+
+
+
+
+TEST CASE 3>>
+
+=== Brute Force Attack ===
+Key: 0 | Qbun qiaut Ihy mxujxuh Byl mekbt zeyd Qbun rkj Ihy jebt Qbun jxqj Bum qdt Byl xqt qbhuqto buvj veh xecu
+Key: 1 | Patm phzts Hgx lwtiwtg Axk ldjas ydxc Patm qji Hgx idas Patm iwpi Atl pcs Axk wps pagtpsn atui udg wdbt
+Key: 2 | Ozsl ogysr Gfw kvshvsf Zwj kcizr xcwb Ozsl pih Gfw hczr Ozsl hvoh Zsk obr Zwj vor ozfsorm zsth tcf vcas
+Key: 3 | Nyrk nfxrq Fev jurgure Yvi jbhyq wbva Nyrk ohg Fev gbyq Nyrk gung Yrj naq Yvi unq nyernql yrsg sbe ubzr
+Key: 4 | Mxqj mewqp Edu itqftqd Xuh iagxp vauz Mxqj ngf Edu faxp Mxqj ftmf Xqi mzp Xuh tmp mxdqmpk xqrf rad tayq
+Key: 5 | Lwpi ldvpo Dct hspespc Wtg hzfwo uzty Lwpi mfe Dct ezwo Lwpi esle Wph lyo Wtg slo lwcploj wpqe qzc szxp
+Key: 6 | Kvoh kcuon Cbs grodrob Vsf gyevn tysx Kvoh led Cbs dyvn Kvoh drkd Vog kxn Vsf rkn kvbokni vopd pyb rywo
+Key: 7 | Jung jbtnm Bar fqncqna Ure fxdum sxrw Jung kdc Bar cxum Jung cqjc Unf jwm Ure qjm juanjmh unoc oxa qxvn
+Key: 8 | Itmf iasml Azq epmbpmz Tqd ewctl rwqv Itmf jcb Azq bwtl Itmf bpib Tme ivl Tqd pil itzmilg tmnb nwz pwum
+Key: 9 | Hsle hzrlk Zyp dolaoly Spc dvbsk qvpu Hsle iba Zyp avsk Hsle aoha Sld huk Spc ohk hsylhkf slma mvy ovtl
+Key: 10 | Grkd gyqkj Yxo cnkznkx Rob cuarj puot Grkd haz Yxo zurj Grkd zngz Rkc gtj Rob ngj grxkgje rklz lux nusk
+Key: 11 | Fqjc fxpji Xwn bmjymjw Qna btzqi otns Fqjc gzy Xwn ytqi Fqjc ymfy Qjb fsi Qna mfi fqwjfid qjky ktw mtrj
+Key: 12 | Epib ewoih Wvm alixliv Pmz asyph nsmr Epib fyx Wvm xsph Epib xlex Pia erh Pmz leh epviehc pijx jsv lsqi
+Key: 13 | Doha dvnhg Vul zkhwkhu Oly zrxog mrlq Doha exw Vul wrog Doha wkdw Ohz dqg Oly kdg douhdgb ohiw iru krph
+Key: 14 | Cngz cumgf Utk yjgvjgt Nkx yqwnf lqkp Cngz dwv Utk vqnf Cngz vjcv Ngy cpf Nkx jcf cntgcfa nghv hqt jqog
+Key: 15 | Bmfy btlfe Tsj xifuifs Mjw xpvme kpjo Bmfy cvu Tsj upme Bmfy uibu Mfx boe Mjw ibe bmsfbez mfgu gps ipnf
+Key: 16 | Alex asked Sri whether Liv would join Alex but Sri told Alex that Lew and Liv had already left for home
+Key: 17 | Zkdw zrjdc Rqh vgdsgdq Khu vntkc inhm Zkdw ats Rqh snkc Zkdw sgzs Kdv zmc Khu gzc zkqdzcx kdes enq gnld
+Key: 18 | Yjcv yqicb Qpg ufcrfcp Jgt umsjb hmgl Yjcv zsr Qpg rmjb Yjcv rfyr Jcu ylb Jgt fyb yjpcybw jcdr dmp fmkc
+Key: 19 | Xibu xphba Pof tebqebo Ifs tlria glfk Xibu yrq Pof qlia Xibu qexq Ibt xka Ifs exa xiobxav ibcq clo eljb
+Key: 20 | What wogaz One sdapdan Her skqhz fkej What xqp One pkhz What pdwp Has wjz Her dwz whnawzu habp bkn dkia
+Key: 21 | Vgzs vnfzy Nmd rczoczm Gdq rjpgy ejdi Vgzs wpo Nmd ojgy Vgzs ocvo Gzr viy Gdq cvy vgmzvyt gzao ajm cjhz
+Key: 22 | Ufyr umeyx Mlc qbynbyl Fcp qiofx dich Ufyr von Mlc nifx Ufyr nbun Fyq uhx Fcp bux uflyuxs fyzn zil bigy
+Key: 23 | Texq tldxw Lkb paxmaxk Ebo phnew chbg Texq unm Lkb mhew Texq matm Exp tgw Ebo atw tekxtwr exym yhk ahfx
+Key: 24 | Sdwp skcwv Kja ozwlzwj Dan ogmdv bgaf Sdwp tml Kja lgdv Sdwp lzsl Dwo sfv Dan zsv sdjwsvq dwxl xgj zgew
+Key: 25 | Rcvo rjbvu Jiz nyvkyvi Czm nflcu afze Rcvo slk Jiz kfcu Rcvo kyrk Cvn reu Czm yru rcivrup cvwk wfi yfdv
+
+=== Dictionary Attack ===
+Predicted Key: 20
+Plaintext: What wogaz One sdapdan Her skqhz fkej What xqp One pkhz What pdwp Has wjz Her dwz whnawzu habp bkn dkia
+Dictionary Score: 8
