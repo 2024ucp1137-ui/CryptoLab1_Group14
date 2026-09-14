@@ -1,0 +1,21 @@
+In this chapter, we will study the notion of pseudorandomness -
+the idea that things can "look" completely random (in a sense we precisely define) even though they are not -
+and see how this can be used to achieve secure encryption beating the bounds of the previous chapter.
+
+Specifically, we will see encryption schemes whereby a short key (say, some hundreds of bits long) can be used
+to securely encrypt many long messages (say, gigabytes in total). Such schemes are able to bypass
+the inherent limitations of perfect secrecy because they achieve the weaker but sufficient notion of computational secrecy.
+
+Before commencing our discussion of private-key encryption, we first examine the computational approach to cryptography in general.
+The computational approach will be used in the rest of the book, and is the basis of modern cryptography.
+
+In the previous two chapters we have studied what can be called classical cryptography.
+We began with a brief look at some historical ciphers, with a focus on how they can be broken and
+what can be learned from these attacks. In Chapter 2, we then proceeded to present cryptographic schemes
+that can be mathematically proven secure (with respect to some particular definition of security),
+even when the adversary has unlimited computational power. Such schemes are called information-theoretically secure,
+or perfectly secure, because their security is due to the fact that the adversary simply does not have enough "information"
+to succeed in its attack, regardless of the adversary's computational power.
+
+In particular, as we have discussed, the ciphertext in a perfectly-secret encryption scheme
+does not contain any information about the plaintext (assuming the key is unknown).
