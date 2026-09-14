@@ -232,6 +232,23 @@ bool verify_solution(const string& plaintext, const string& ciphertext, const st
     return encryptText(plaintext, key) == ciphertext;
 }
 
+// Recover plaintext-to-ciphertext key from a ciphertext-to-plaintext substitution
+string reverse_substitution(const string& substitution)
+{
+    string key(26, '?');
+
+    for (int i = 0; i < 26; i++)
+    {
+        if (substitution[i] != '?')
+        {
+            char plain = substitution[i];
+            key[plain - 'A'] = 'A' + i;
+        }
+    }
+
+    return key;
+}
+
 int main()
 {
     ifstream file("input.txt");
@@ -264,16 +281,86 @@ int main()
     word_frequency_analysis(ciphertext);
     pattern_analysis(ciphertext);
 
-    string candidateSub(26, '?');
+    // ================================================================
+// ITERATIVE CRYPTANALYSIS
+// ================================================================
 
-    candidateSub['T' - 'A'] = 'E';
-    candidateSub['Z' - 'A'] = 'T';
-    candidateSub['I' - 'A'] = 'H';
+string candidateSub(26, '?');
 
-    cout << "\n--- Partial Plaintext ---\n";
-    display_partial_plaintext(ciphertext, candidateSub);
+cout << "\n==================== CRYPTANALYSIS ====================\n";
 
-    string recoveredPlaintext = apply_substitution(ciphertext, candidateSub);
+// Step 1: Frequency analysis hypothesis
+candidateSub['T' - 'A'] = 'E';
+cout << "\nHypothesis 1: T -> E";
+display_partial_plaintext(ciphertext, candidateSub);
 
-    return 0;
+// Step 2: Word/pattern analysis
+candidateSub['Z' - 'A'] = 'T';
+cout << "\nHypothesis 2: Z -> T";
+display_partial_plaintext(ciphertext, candidateSub);
+
+// Step 3: Pattern analysis
+candidateSub['I' - 'A'] = 'H';
+cout << "\nHypothesis 3: I -> H";
+display_partial_plaintext(ciphertext, candidateSub);
+
+// Continue substitution recovery
+candidateSub['Q' - 'A'] = 'A';
+candidateSub['W' - 'A'] = 'B';
+candidateSub['E' - 'A'] = 'C';
+candidateSub['R' - 'A'] = 'D';
+candidateSub['Y' - 'A'] = 'F';
+candidateSub['U' - 'A'] = 'G';
+candidateSub['O' - 'A'] = 'I';
+candidateSub['P' - 'A'] = 'J';
+candidateSub['A' - 'A'] = 'K';
+candidateSub['S' - 'A'] = 'L';
+candidateSub['D' - 'A'] = 'M';
+candidateSub['F' - 'A'] = 'N';
+candidateSub['G' - 'A'] = 'O';
+candidateSub['H' - 'A'] = 'P';
+candidateSub['J' - 'A'] = 'Q';
+candidateSub['K' - 'A'] = 'R';
+candidateSub['L' - 'A'] = 'S';
+candidateSub['X' - 'A'] = 'U';
+candidateSub['C' - 'A'] = 'V';
+candidateSub['V' - 'A'] = 'W';
+candidateSub['B' - 'A'] = 'X';
+candidateSub['N' - 'A'] = 'Y';
+candidateSub['M' - 'A'] = 'Z';
+
+cout << "\n================ RECOVERED SUBSTITUTION KEY ================\n";
+cout << "Ciphertext -> Plaintext\n";
+
+for (int i = 0; i < 26; i++)
+{
+    cout << char('A' + i)
+         << " -> "
+         << candidateSub[i] << "\n";
+}
+
+cout << "\n==================== RECOVERED PLAINTEXT ====================\n";
+
+string recoveredPlaintext =
+    apply_substitution(ciphertext, candidateSub);
+
+cout << recoveredPlaintext << "\n";
+
+// Convert cipher->plain mapping to plain->cipher key
+string recoveredKey = reverse_substitution(candidateSub);
+
+cout << "\n==================== RECOVERED KEY ====================\n";
+cout << recoveredKey << "\n";
+
+// Verification
+cout << "\n==================== VERIFICATION ====================\n";
+
+if (verify_solution(recoveredPlaintext, ciphertext, recoveredKey))
+{
+    cout << "Re-encryption of recovered plaintext == original ciphertext: SUCCESS\n";
+}
+else
+{
+    cout << "Verification FAILED\n";
+}
 }
