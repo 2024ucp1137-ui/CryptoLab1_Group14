@@ -1,0 +1,518 @@
+====================================================
+       VIGENERE CIPHER CRYPTANALYSIS
+                    GROUP 14
+====================================================
+
+Ciphertext length = 753
+
+================ KASISKI ANALYSIS ================
+
+Repeated patterns:
+AEL : 297 614 
+AEP : 356 524 
+AIK : 93 393 
+AMF : 568 574 
+BEL : 199 247 
+DDE : 557 696 
+EGX : 20 140 
+ELS : 44 723 
+FBE : 198 246 
+FBEL : 198 246 
+FWT : 390 565 
+FWTA : 390 565 
+GOT : 263 419 
+GOTP : 263 419 
+GOTPM : 263 419 
+GPX : 109 385 
+GWI : 281 509 
+GWIE : 281 509 
+GWW : 514 553 
+HPR : 195 243 
+HPRF : 195 243 
+HPRFB : 195 243 
+HXZ : 333 712 
+HXZY : 333 712 
+HZL : 682 740 
+IEG : 62 283 
+ILA : 173 624 
+ILB : 10 226 
+KHP : 194 242 
+KHPR : 194 242 
+KHPRF : 194 242 
+KIL : 9 225 
+KILB : 9 225 
+KMA : 534 589 
+LAE : 174 613 
+LBN : 227 642 
+LBR : 11 278 
+LFM : 137 149 
+LVB : 168 408 
+MAE : 355 523 
+MAEP : 355 523 
+MEL : 43 486 
+MFS : 52 364 
+MHX : 31 151 
+MLW : 189 477 561 
+MXR : 267 423 
+MXRT : 267 423 
+MXRTX : 267 423 
+NNB : 396 644 
+NUM : 120 300 
+NVW : 217 253 349 457 
+OTP : 264 420 
+OTPM : 264 420 
+OTPMX : 264 420 
+PMX : 266 422 
+PMXR : 266 422 
+PMXRT : 266 422 
+PRF : 196 244 
+PRFB : 196 244 
+PRFBE : 196 244 
+RFB : 197 245 
+RFBE : 197 245 
+RFBEL : 197 245 
+RTX : 269 425 
+RXW : 68 672 
+SIL : 172 623 
+SILA : 172 623 
+SML : 476 725 
+TAI : 92 392 
+TAIK : 92 392 
+THX : 332 428 
+TPM : 265 421 
+TPMX : 265 421 
+TPMXR : 265 421 
+TXT : 378 405 426 
+UAL : 276 444 607 
+WHG : 287 383 
+WIE : 282 510 
+WNV : 134 717 
+WTA : 391 566 
+WWS : 40 554 
+XRT : 268 424 
+XRTX : 268 424 
+XTH : 331 427 
+XTHX : 331 427 
+XZY : 334 713 
+YGW : 433 508 
+YNV : 252 456 
+YNVW : 252 456 
+
+Factor frequency:
+Length 3 -> 71 occurrences
+Length 2 -> 69 occurrences
+Length 4 -> 66 occurrences
+Length 6 -> 65 occurrences
+Length 12 -> 64 occurrences
+Length 8 -> 33 occurrences
+Length 16 -> 22 occurrences
+Length 13 -> 21 occurrences
+Length 5 -> 13 occurrences
+Length 7 -> 10 occurrences
+Length 9 -> 8 occurrences
+Length 15 -> 8 occurrences
+Length 20 -> 7 occurrences
+Length 18 -> 7 occurrences
+Length 10 -> 7 occurrences
+Length 14 -> 5 occurrences
+Length 11 -> 5 occurrences
+Length 17 -> 3 occurrences
+Length 19 -> 3 occurrences
+
+Kasiski suggested key length = 3
+
+================ INDEX OF COINCIDENCE ================
+Overall IC = 0.0438
+
+================ IC CANDIDATES ================
+Key length  3 -> Average IC = 0.0457
+Key length  6 -> Average IC = 0.0520
+Key length  9 -> Average IC = 0.0446
+Key length 12 -> Average IC = 0.0614
+Key length 15 -> Average IC = 0.0437
+Key length 18 -> Average IC = 0.0501
+
+Estimated key length = 12
+Average IC of groups = 0.0614
+
+================ FREQUENCY ANALYSIS ================
+
+---------------- Group 1 ----------------
+Letter  Count
+A       0
+B       3
+C       1
+D       1
+E       0
+F       5
+G       1
+H       4
+I       5
+J       0
+K       1
+L       4
+M       2
+N       4
+O       4
+P       2
+Q       1
+R       1
+S       1
+T       0
+U       7
+V       0
+W       3
+X       3
+Y       9
+Z       1
+IC = 0.0573
+
+---------------- Group 2 ----------------
+Letter  Count
+A       9
+B       1
+C       2
+D       1
+E       2
+F       3
+G       5
+H       0
+I       0
+J       2
+K       1
+L       2
+M       0
+N       7
+O       1
+P       1
+Q       1
+R       7
+S       2
+T       2
+U       4
+V       4
+W       1
+X       1
+Y       2
+Z       2
+IC = 0.0568
+
+---------------- Group 3 ----------------
+Letter  Count
+A       5
+B       9
+C       0
+D       1
+E       1
+F       0
+G       1
+H       1
+I       4
+J       0
+K       5
+L       3
+M       6
+N       0
+O       2
+P       4
+Q       1
+R       0
+S       0
+T       1
+U       1
+V       6
+W       4
+X       4
+Y       0
+Z       4
+IC = 0.0614
+
+---------------- Group 4 ----------------
+Letter  Count
+A       2
+B       5
+C       0
+D       1
+E       4
+F       0
+G       2
+H       7
+I       2
+J       0
+K       2
+L       2
+M       7
+N       4
+O       1
+P       0
+Q       0
+R       3
+S       1
+T       2
+U       0
+V       0
+W       8
+X       8
+Y       2
+Z       0
+IC = 0.0666
+
+---------------- Group 5 ----------------
+Letter  Count
+A       3
+B       1
+C       0
+D       0
+E       3
+F       0
+G       1
+H       4
+I       4
+J       0
+K       0
+L       5
+M       7
+N       0
+O       1
+P       5
+Q       4
+R       2
+S       6
+T       3
+U       0
+V       4
+W       4
+X       5
+Y       1
+Z       0
+IC = 0.0543
+
+---------------- Group 6 ----------------
+Letter  Count
+A       0
+B       1
+C       0
+D       5
+E       3
+F       3
+G       2
+H       7
+I       7
+J       1
+K       1
+L       3
+M       3
+N       0
+O       1
+P       2
+Q       4
+R       9
+S       2
+T       0
+U       3
+V       1
+W       2
+X       2
+Y       1
+Z       0
+IC = 0.0584
+
+---------------- Group 7 ----------------
+Letter  Count
+A       1
+B       1
+C       0
+D       2
+E       1
+F       10
+G       1
+H       3
+I       0
+J       2
+K       5
+L       6
+M       2
+N       1
+O       1
+P       0
+Q       1
+R       0
+S       4
+T       3
+U       3
+V       2
+W       11
+X       1
+Y       1
+Z       1
+IC = 0.0737
+
+---------------- Group 8 ----------------
+Letter  Count
+A       3
+B       6
+C       0
+D       0
+E       5
+F       0
+G       1
+H       3
+I       4
+J       1
+K       2
+L       4
+M       7
+N       2
+O       0
+P       0
+Q       0
+R       1
+S       0
+T       4
+U       1
+V       0
+W       4
+X       9
+Y       5
+Z       1
+IC = 0.0635
+
+---------------- Group 9 ----------------
+Letter  Count
+A       7
+B       3
+C       4
+D       3
+E       11
+F       3
+G       2
+H       3
+I       0
+J       0
+K       0
+L       3
+M       0
+N       3
+O       2
+P       1
+Q       0
+R       2
+S       3
+T       8
+U       2
+V       0
+W       1
+X       0
+Y       1
+Z       1
+IC = 0.0691
+
+---------------- Group 10 ----------------
+Letter  Count
+A       4
+B       0
+C       1
+D       0
+E       5
+F       0
+G       6
+H       3
+I       2
+J       0
+K       4
+L       6
+M       5
+N       2
+O       1
+P       1
+Q       1
+R       0
+S       0
+T       4
+U       1
+V       0
+W       3
+X       5
+Y       2
+Z       6
+IC = 0.0539
+
+---------------- Group 11 ----------------
+Letter  Count
+A       1
+B       1
+C       0
+D       0
+E       4
+F       0
+G       2
+H       6
+I       9
+J       0
+K       2
+L       5
+M       5
+N       1
+O       0
+P       3
+Q       0
+R       3
+S       6
+T       1
+U       0
+V       2
+W       2
+X       7
+Y       2
+Z       0
+IC = 0.0656
+
+---------------- Group 12 ----------------
+Letter  Count
+A       3
+B       0
+C       0
+D       2
+E       2
+F       4
+G       6
+H       2
+I       0
+J       3
+K       4
+L       4
+M       1
+N       0
+O       2
+P       0
+Q       0
+R       2
+S       6
+T       1
+U       1
+V       4
+W       9
+X       3
+Y       1
+Z       2
+IC = 0.0555
+
+================ RECOVERED KEY ================
+Key length = 12
+Recovered key = UNITEDSTATES
+
+================ RECOVERED PLAINTEXT ================
+
+WETHEREFORETHEREPRESENTATIVESOFTHEUNITEDSTATESOFAMERICAINGENERALCONGRESSASSEMBLE
+DAPPEALINGTOTHESUPREMEJUDGEOFTHEWORLDFORTHERECTITUDEOFOURINTENTIONSDOINTHENAMEAN
+DBYAUTHORITYOFTHEGOODPEOPLEOFTHESECOLONIESSOLEMNLYPUBLISHANDDECLARETHATTHESEUNIT
+EDCOLONIESAREANDOFRIGHTOUGHTTOBEFREEANDINDEPENDENTSTATESTHATTHEYAREABSOLVEDFROMA
+LLALLEGIANCETOTHEBRITISHCROWNANDTHATALLPOLITICALCONNECTIONBETWEENTHEMANDTHESTATE
+OFGREATBRITAINISANDOUGHTTOBETOTALLYDISSOLVEDANDTHATASFREEANDINDEPENDENTSTATESTHE
+YHAVEFULLPOWERTOLEVYWARCONCLUDEPEACECONTRACTALLIANCESESTABLISHCOMMERCEANDTODOALL
+OTHERSOAWJNHFLWULMTUSFPFASTZCXEHIFSNNNDRANROIEOBASUAAYSLHVPQBGIAOYSPHEEDYPGMCNZU
+LJTINUXDVWPSXBNDRDCFQJAYDUEDGXDZXKOPKJNFCGDHRIPURFWFZJIGJQWFEMEETTIANFNODUHFEDJD
+UNGLHPUSSDGFDSPZPODPHGHMLWPKWPNPE
+
+================ VERIFICATION ================
+Re-encryption matches original ciphertext: SUCCESS
