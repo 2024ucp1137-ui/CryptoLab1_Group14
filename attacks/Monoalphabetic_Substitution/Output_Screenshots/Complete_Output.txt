@@ -1,0 +1,320 @@
+--- Plaintext ---
+
+In this chapter, we will study the notion of pseudorandomness -
+the idea that things can "look" completely random (in a sense we precisely define) even though they are not -
+and see how this can be used to achieve secure encryption beating the bounds of the previous chapter.
+
+Specifically, we will see encryption schemes whereby a short key (say, some hundreds of bits long) can be used
+to securely encrypt many long messages (say, gigabytes in total). Such schemes are able to bypass
+the inherent limitations of perfect secrecy because they achieve the weaker but sufficient notion of computational secrecy.
+
+Before commencing our discussion of private-key encryption, we first examine the computational approach to cryptography in general.
+The computational approach will be used in the rest of the book, and is the basis of modern cryptography.
+
+In the previous two chapters we have studied what can be called classical cryptography.
+We began with a brief look at some historical ciphers, with a focus on how they can be broken and
+what can be learned from these attacks. In Chapter 2, we then proceeded to present cryptographic schemes
+that can be mathematically proven secure (with respect to some particular definition of security),
+even when the adversary has unlimited computational power. Such schemes are called information-theoretically secure,
+or perfectly secure, because their security is due to the fact that the adversary simply does not have enough "information"
+to succeed in its attack, regardless of the adversary's computational power.
+
+In particular, as we have discussed, the ciphertext in a perfectly-secret encryption scheme
+does not contain any information about the plaintext (assuming the key is unknown).
+
+
+
+--- Key ---
+
+QWERTYUIOPASDFGHJKLZXCVBNM
+
+
+--- Ciphertext ---
+Of ziol eiqhztk, vt voss lzxrn zit fgzogf gy hltxrgkqfrgdftll -
+zit ortq ziqz zioful eqf "sgga" egdhstztsn kqfrgd (of q ltflt vt hkteoltsn rtyoft) tctf zigxui zitn qkt fgz -
+qfr ltt igv ziol eqf wt xltr zg qeiotct ltexkt tfeknhzogf wtqzofu zit wgxfrl gy zit hktcogxl eiqhztk.
+
+Lhteoyoeqssn, vt voss ltt tfeknhzogf leitdtl vitktwn q ligkz atn (lqn, lgdt ixfrktrl gy wozl sgfu) eqf wt xltr
+zg ltexktsn tfeknhz dqfn sgfu dtllqutl (lqn, uouqwnztl of zgzqs). Lxei leitdtl qkt qwst zg wnhqll
+zit ofitktfz sodozqzogfl gy htkytez ltekten wteqxlt zitn qeiotct zit vtqatk wxz lxyyoeotfz fgzogf gy egdhxzqzogfqs ltekten.
+
+Wtygkt egddtfeofu gxk rolexllogf gy hkocqzt-atn tfeknhzogf, vt yoklz tbqdoft zit egdhxzqzogfqs qhhkgqei zg eknhzgukqhin of utftkqs.
+Zit egdhxzqzogfqs qhhkgqei voss wt xltr of zit ktlz gy zit wgga, qfr ol zit wqlol gy dgrtkf eknhzgukqhin.
+
+Of zit hktcogxl zvg eiqhztkl vt iqct lzxrotr viqz eqf wt eqsstr esqlloeqs eknhzgukqhin.
+Vt wtuqf vozi q wkoty sgga qz lgdt iolzgkoeqs eohitkl, vozi q ygexl gf igv zitn eqf wt wkgatf qfr
+viqz eqf wt stqkftr ykgd zitlt qzzqeal. Of Eiqhztk 2, vt zitf hkgettrtr zg hktltfz eknhzgukqhioe leitdtl
+ziqz eqf wt dqzitdqzoeqssn hkgctf ltexkt (vozi ktlhtez zg lgdt hqkzoexsqk rtyofozogf gy ltexkozn),
+tctf vitf zit qrctklqkn iql xfsodoztr egdhxzqzogfqs hgvtk. Lxei leitdtl qkt eqsstr ofygkdqzogf-zitgktzoeqssn ltexkt,
+gk htkytezsn ltexkt, wteqxlt zitok ltexkozn ol rxt zg zit yqez ziqz zit qrctklqkn lodhsn rgtl fgz iqct tfgxui "ofygkdqzogf"
+zg lxeettr of ozl qzzqea, ktuqkrstll gy zit qrctklqkn'l egdhxzqzogfqs hgvtk.
+
+Of hqkzoexsqk, ql vt iqct rolexlltr, zit eohitkztbz of q htkytezsn-ltektz tfeknhzogf leitdt
+rgtl fgz egfzqof qfn ofygkdqzogf qwgxz zit hsqofztbz (qllxdofu zit atn ol xfafgvf).
+
+
+=================== LETTER FREQUENCY ANALYSIS ===================
+Letter    Count     Percentage
+-----------------------------------------------------------------
+T         192       13.59%
+Z         127       8.99%
+Q         109       7.71%
+G         99        7.01%
+L         97        6.86%
+F         91        6.44%
+O         90        6.37%
+E         83        5.87%
+K         83        5.87%
+I         74        5.24%
+H         49        3.47%
+S         45        3.18%
+N         42        2.97%
+X         42        2.97%
+R         36        2.55%
+D         32        2.26%
+Y         27        1.91%
+V         25        1.77%
+W         24        1.70%
+U         18        1.27%
+C         14        0.99%
+A         11        0.78%
+B         3         0.21%
+
+Most frequent letters in Ciphertext: T (192)  Z (127)  Q (109)  G (99)  L (97)  
+
+===================== WORD FREQUENCY ANALYSIS =====================
+
+Repeated Words (Count > 1):
+  atn            : 3
+  egdhxzqzogfqs  : 5
+  eiqhztk        : 3
+  eknhzgukqhin   : 3
+  eqf            : 7
+  eqsstr         : 2
+  fgz            : 3
+  fgzogf         : 2
+  gy             : 10
+  hgvtk          : 2
+  hktcogxl       : 2
+  hqkzoexsqk     : 2
+  htkytezsn      : 2
+  igv            : 2
+  iqct           : 3
+  leitdtl        : 4
+  lgdt           : 3
+  lqn            : 2
+  ltekten        : 2
+  ltexkozn       : 2
+  ltexkt         : 4
+  ltt            : 2
+  lxei           : 2
+  of             : 10
+  ofygkdqzogf    : 3
+  ol             : 3
+  q              : 5
+  qeiotct        : 2
+  qfr            : 3
+  qhhkgqei       : 2
+  qkt            : 3
+  qrctklqkn      : 3
+  rgtl           : 2
+  sgfu           : 2
+  sgga           : 2
+  tctf           : 2
+  tfeknhzogf     : 4
+  viqz           : 2
+  voss           : 3
+  vozi           : 3
+  vt             : 8
+  wt             : 7
+  wteqxlt        : 2
+  xltr           : 3
+  zg             : 8
+  ziol           : 2
+  ziqz           : 3
+  zit            : 19
+  zitn           : 3
+
+One-letter words:
+  l (1)
+  q (5)
+
+Two-letter words:
+  gf (1)
+  gk (1)
+  gy (10)
+  of (10)
+  ol (3)
+  ql (1)
+  qz (1)
+  vt (8)
+  wt (7)
+  zg (8)
+
+Three-letter words:
+  atn (3)
+  eqf (7)
+  fgz (3)
+  gxk (1)
+  igv (2)
+  iql (1)
+  lqn (2)
+  ltt (2)
+  ozl (1)
+  qfn (1)
+  qfr (3)
+  qkt (3)
+  rxt (1)
+  wxz (1)
+  zit (19)
+  zvg (1)
+
+======================= PATTERN ANALYSIS =======================
+Pattern [ABBC    ] matches: sgga wgga 
+Pattern [ABC     ] matches: atn eqf fgz gxk igv iql lqn ozl qfn qfr qkt rxt wxz zit zvg 
+Pattern [ABCD    ] matches: dqfn iqct ktlz lgdt lxei ortq qwst rgtl sgfu viqz vitf vozi wozl xltr ykgd yqez ziol zitf zitn 
+Pattern [ABCDBE  ] matches: ltektz vtqatk 
+Pattern [ABCDBEF ] matches: htkytez ktlhtez 
+Pattern [ABCDC   ] matches: wqlol zitlt 
+Pattern [ABCDCEF ] matches: hktltfz vitktwn 
+Pattern [ABCDE   ] matches: hgvtk ligkz lzxrn qwgxz wkoty wtuqf ygexl yoklz zitok 
+Pattern [ABCDEB  ] matches: ltexkt rtyoft wtygkt zigxui 
+Pattern [ABCDEF  ] matches: dgrtkf hkgctf kqfrgd lodhsn tfgxui wgxfrl wkgatf zioful 
+Pattern [ABCDEFG ] matches: eiqhztk eohitkl hkocqzt tfeknhz wtqzofu 
+Pattern [ABCDEFGH] matches: eiqhztkl hktcogxl ltexkozn 
+
+==================== CRYPTANALYSIS ====================
+
+Hypothesis 1: T -> E
+====================== PARTIAL PLAINTEXT ======================
+__ ____ _____e_, _e ____ _____ __e ______ __ __e__________e__ -
+__e __e_ ____ ______ ___ "____" _____e_e__ ______ (__ _ _e__e _e __e___e__ _e___e) e_e_ ______ __e_ __e ___ -
+___ _ee ___ ____ ___ _e __e_ __ ____e_e _e___e e_________ _e_____ __e ______ __ __e __e_____ _____e_.
+
+__e_________, _e ____ _ee e_________ ___e_e_ __e_e__ _ _____ _e_ (___, ___e _____e__ __ ____ ____) ___ _e __e_
+__ _e___e__ e______ ____ ____ _e____e_ (___, _______e_ __ _____). ____ ___e_e_ __e ___e __ ______
+__e ___e_e__ ___________ __ _e__e__ _e__e__ _e____e __e_ ____e_e __e _e__e_ ___ _______e__ ______ __ _____________ _e__e__.
+
+_e___e ____e_____ ___ __________ __ ______e-_e_ e_________, _e _____ e_____e __e _____________ ________ __ ____________ __ _e_e___.
+__e _____________ ________ ____ _e __e_ __ __e _e__ __ __e ____, ___ __ __e _____ __ ___e__ ____________.
+
+__ __e __e_____ ___ _____e__ _e ___e _____e_ ____ ___ _e ____e_ _________ ____________.
+_e _e___ ____ _ ___e_ ____ __ ___e __________ ____e__, ____ _ _____ __ ___ __e_ ___ _e ____e_ ___
+____ ___ _e _e___e_ ____ __e_e _______. __ _____e_ 2, _e __e_ ____ee_e_ __ __e_e__ _____________ ___e_e_
+____ ___ _e ____e_________ ____e_ _e___e (____ _e__e__ __ ___e __________ _e________ __ _e______),
+e_e_ __e_ __e ___e_____ ___ _______e_ _____________ ___e_. ____ ___e_e_ __e ____e_ ___________-__e__e_______ _e___e,
+__ _e__e____ _e___e, _e____e __e__ _e______ __ __e __ __e ____ ____ __e ___e_____ ______ __e_ ___ ___e e_____ "___________"
+__ ____ee_ __ ___ ______, _e_____e__ __ __e ___e_____'_ _____________ ___e_.
+
+__ __________, __ _e ___e _______e_, __e ____e__e__ __ _ _e__e____-_e__e_ e_________ ___e_e
+__e_ ___ _______ ___ ___________ _____ __e ______e__ (________ __e _e_ __ _______).
+
+
+Hypothesis 2: Z -> T
+====================== PARTIAL PLAINTEXT ======================
+__ t___ ____te_, _e ____ _t___ t_e __t___ __ __e__________e__ -
+t_e __e_ t__t t_____ ___ "____" _____ete__ ______ (__ _ _e__e _e __e___e__ _e___e) e_e_ t_____ t_e_ __e __t -
+___ _ee ___ t___ ___ _e __e_ t_ ____e_e _e___e e_____t___ _e_t___ t_e ______ __ t_e __e_____ ____te_.
+
+__e_________, _e ____ _ee e_____t___ ___e_e_ __e_e__ _ ____t _e_ (___, ___e _____e__ __ __t_ ____) ___ _e __e_
+t_ _e___e__ e_____t ____ ____ _e____e_ (___, ______te_ __ t_t__). ____ ___e_e_ __e ___e t_ ______
+t_e ___e_e_t ____t_t____ __ _e__e_t _e__e__ _e____e t_e_ ____e_e t_e _e__e_ __t _______e_t __t___ __ _____t_t_____ _e__e__.
+
+_e___e ____e_____ ___ __________ __ _____te-_e_ e_____t___, _e ____t e_____e t_e _____t_t_____ ________ t_ ____t_______ __ _e_e___.
+T_e _____t_t_____ ________ ____ _e __e_ __ t_e _e_t __ t_e ____, ___ __ t_e _____ __ ___e__ ____t_______.
+
+__ t_e __e_____ t__ ____te__ _e ___e _t___e_ ___t ___ _e ____e_ _________ ____t_______.
+_e _e___ __t_ _ ___e_ ____ _t ___e ___t______ ____e__, __t_ _ _____ __ ___ t_e_ ___ _e ____e_ ___
+___t ___ _e _e___e_ ____ t_e_e _tt____. __ ____te_ 2, _e t_e_ ____ee_e_ t_ __e_e_t ____t________ ___e_e_
+t__t ___ _e __t_e__t______ ____e_ _e___e (__t_ _e__e_t t_ ___e ___t______ _e____t___ __ _e____t_),
+e_e_ __e_ t_e ___e_____ ___ ______te_ _____t_t_____ ___e_. ____ ___e_e_ __e ____e_ _______t___-t_e__et______ _e___e,
+__ _e__e_t__ _e___e, _e____e t_e__ _e____t_ __ __e t_ t_e ___t t__t t_e ___e_____ ______ __e_ __t ___e e_____ "_______t___"
+t_ ____ee_ __ _t_ _tt___, _e_____e__ __ t_e ___e_____'_ _____t_t_____ ___e_.
+
+__ ___t______, __ _e ___e _______e_, t_e ____e_te_t __ _ _e__e_t__-_e__et e_____t___ ___e_e
+__e_ __t ___t___ ___ _______t___ ____t t_e _____te_t (________ t_e _e_ __ _______).
+
+
+Hypothesis 3: I -> H
+====================== PARTIAL PLAINTEXT ======================
+__ th__ _h__te_, _e ____ _t___ the __t___ __ __e__________e__ -
+the __e_ th_t th____ ___ "____" _____ete__ ______ (__ _ _e__e _e __e___e__ _e___e) e_e_ th___h the_ __e __t -
+___ _ee h__ th__ ___ _e __e_ t_ __h_e_e _e___e e_____t___ _e_t___ the ______ __ the __e_____ _h__te_.
+
+__e_________, _e ____ _ee e_____t___ __he_e_ _he_e__ _ _h__t _e_ (___, ___e h____e__ __ __t_ ____) ___ _e __e_
+t_ _e___e__ e_____t ____ ____ _e____e_ (___, ______te_ __ t_t__). ___h __he_e_ __e ___e t_ ______
+the __he_e_t ____t_t____ __ _e__e_t _e__e__ _e____e the_ __h_e_e the _e__e_ __t _______e_t __t___ __ _____t_t_____ _e__e__.
+
+_e___e ____e_____ ___ __________ __ _____te-_e_ e_____t___, _e ____t e_____e the _____t_t_____ _______h t_ ____t_____h_ __ _e_e___.
+The _____t_t_____ _______h ____ _e __e_ __ the _e_t __ the ____, ___ __ the _____ __ ___e__ ____t_____h_.
+
+__ the __e_____ t__ _h__te__ _e h__e _t___e_ _h_t ___ _e ____e_ _________ ____t_____h_.
+_e _e___ __th _ ___e_ ____ _t ___e h__t______ ___he__, __th _ _____ __ h__ the_ ___ _e ____e_ ___
+_h_t ___ _e _e___e_ ____ the_e _tt____. __ _h__te_ 2, _e the_ ____ee_e_ t_ __e_e_t ____t_____h__ __he_e_
+th_t ___ _e __the__t______ ____e_ _e___e (__th _e__e_t t_ ___e ___t______ _e____t___ __ _e____t_),
+e_e_ _he_ the ___e_____ h__ ______te_ _____t_t_____ ___e_. ___h __he_e_ __e ____e_ _______t___-the__et______ _e___e,
+__ _e__e_t__ _e___e, _e____e the__ _e____t_ __ __e t_ the ___t th_t the ___e_____ ______ __e_ __t h__e e____h "_______t___"
+t_ ____ee_ __ _t_ _tt___, _e_____e__ __ the ___e_____'_ _____t_t_____ ___e_.
+
+__ ___t______, __ _e h__e _______e_, the ___he_te_t __ _ _e__e_t__-_e__et e_____t___ __he_e
+__e_ __t ___t___ ___ _______t___ ____t the _____te_t (________ the _e_ __ _______).
+
+
+================ RECOVERED SUBSTITUTION KEY ================
+Ciphertext -> Plaintext
+A -> K
+B -> X
+C -> V
+D -> M
+E -> C
+F -> N
+G -> O
+H -> P
+I -> H
+J -> Q
+K -> R
+L -> S
+M -> Z
+N -> Y
+O -> I
+P -> J
+Q -> A
+R -> D
+S -> L
+T -> E
+U -> G
+V -> W
+W -> B
+X -> U
+Y -> F
+Z -> T
+
+==================== RECOVERED PLAINTEXT ====================
+In this chapter, we will study the notion of pseudorandomness -
+the idea that things can "look" completely random (in a sense we precisely define) even though they are not -
+and see how this can be used to achieve secure encryption beating the bounds of the previous chapter.
+
+Specifically, we will see encryption schemes whereby a short key (say, some hundreds of bits long) can be used
+to securely encrypt many long messages (say, gigabytes in total). Such schemes are able to bypass
+the inherent limitations of perfect secrecy because they achieve the weaker but sufficient notion of computational secrecy.
+
+Before commencing our discussion of private-key encryption, we first examine the computational approach to cryptography in general.
+The computational approach will be used in the rest of the book, and is the basis of modern cryptography.
+
+In the previous two chapters we have studied what can be called classical cryptography.
+We began with a brief look at some historical ciphers, with a focus on how they can be broken and
+what can be learned from these attacks. In Chapter 2, we then proceeded to present cryptographic schemes
+that can be mathematically proven secure (with respect to some particular definition of security),
+even when the adversary has unlimited computational power. Such schemes are called information-theoretically secure,
+or perfectly secure, because their security is due to the fact that the adversary simply does not have enough "information"
+to succeed in its attack, regardless of the adversary's computational power.
+
+In particular, as we have discussed, the ciphertext in a perfectly-secret encryption scheme
+does not contain any information about the plaintext (assuming the key is unknown).
+
+
+==================== RECOVERED KEY ====================
+QWERTYUIOPASDFGHJKLZXCVBNM
+
+==================== VERIFICATION ====================
+Re-encryption of recovered plaintext == original ciphertext: SUCCESS
