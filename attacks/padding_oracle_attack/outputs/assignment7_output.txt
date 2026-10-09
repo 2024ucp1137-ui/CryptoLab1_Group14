@@ -1,0 +1,4 @@
+Recovered plaintext:
+Padding oracle attacks recover plaintext without the AES key.
+Oracle queries: 8441
+AES key used by attack: none (key is held only by the demo oracle)
