@@ -1,0 +1,19 @@
+========== PART A: STREAM CIPHER ==========
+Original seed: 15868
+Plaintext: k4ci*oZ6>qlAAAAAAAAAAAAAA
+Ciphertext (hex): f4 a8 75 d4 68 2d d8 35 c6 06 15 f5 d5 6a 24 17 61 93 9f df 76 0f e5 98 ec
+Decryption check: SUCCESS
+
+Seeds tested: 65536
+Recovered seed: 15868
+Recovered plaintext: k4ci*oZ6>qlAAAAAAAAAAAAAA
+Full plaintext check: SUCCESS
+
+========== PART B: RESET TOKEN ==========
+Original timestamp: 1793907268
+Original token (hex): 2f 51 f1 f9 80 d1 85 4d 34 ea 7a 52 24 a8 36 53
+Search interval: 1793906968 to 1793907568
+Timestamps tested: 601
+Recovered timestamp: 1793907268
+Regenerated token (hex): 2f 51 f1 f9 80 d1 85 4d 34 ea 7a 52 24 a8 36 53
+Token check: SUCCESS
